@@ -1,0 +1,15 @@
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/bin/Debug/net8.0/canalLock
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/bin/Debug/net8.0/canalLock.deps.json
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/bin/Debug/net8.0/canalLock.runtimeconfig.json
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/bin/Debug/net8.0/canalLock.dll
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/bin/Debug/net8.0/canalLock.pdb
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.GeneratedMSBuildEditorConfig.editorconfig
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.AssemblyInfoInputs.cache
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.AssemblyInfo.cs
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.csproj.CoreCompileInputs.cache
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.sourcelink.json
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.dll
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/refint/canalLock.dll
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.pdb
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/canalLock.genruntimeconfig.cache
+/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/obj/Debug/net8.0/ref/canalLock.dll

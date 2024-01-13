@@ -1,0 +1,15 @@
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.GeneratedMSBuildEditorConfig.editorconfig
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.AssemblyInfoInputs.cache
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.AssemblyInfo.cs
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.csproj.CoreCompileInputs.cache
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.sourcelink.json
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/bin/Debug/net8.0/bankAccount
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/bin/Debug/net8.0/bankAccount.deps.json
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/bin/Debug/net8.0/bankAccount.runtimeconfig.json
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/bin/Debug/net8.0/bankAccount.dll
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/bin/Debug/net8.0/bankAccount.pdb
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.dll
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/refint/bankAccount.dll
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.pdb
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/bankAccount.genruntimeconfig.cache
+/home/sam/Projects/dotnet/LearnCSharpSolution/bankAccount/obj/Debug/net8.0/ref/bankAccount.dll
