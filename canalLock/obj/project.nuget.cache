@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRi+zhHn0RKUDxtjjlnnWY/9JtfqsbeJ0hhCYru8D++Hf+ER2M55zRRT+slv+ZgRmvWmT7fqRh5ykZGJMomGdQ==",
+  "dgSpecHash": "7NHTkHNksFsVjVR7RslvFi0Nhu6SwCpEAujuH4ejjND7Awr1kieUQ3oBywYnpNN4bsKe39D1zGOyrpGVb4beuw==",
   "success": true,
-  "projectFilePath": "/home/sam/Projects/dotnet/LearnCSharpSolution/canalLock/canalLock.csproj",
+  "projectFilePath": "D:\\source\\LearnCSharpSolution\\canalLock\\canalLock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
