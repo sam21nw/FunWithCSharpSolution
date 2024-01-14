@@ -1,14 +1,19 @@
-﻿using System.Collections.Generic;
-using consoleApp;
-
-internal class Program
+﻿internal class Program
 {
-  private static void Main(string[] args)
-  {
-    var fibList = FibonacciClass.Fibonacci(20);
-    foreach (var item in fibList)
+    private static void Main(string[] args)
     {
-      System.Console.WriteLine(item);
+        static int Fib(int n)
+        {
+            if (n < 2)
+            {
+                return n;
+            }
+
+            return Fib(n - 1) + Fib(n - 2);
+        }
+
+        int fib = Fib(10);
+
+        Console.WriteLine(fib);
     }
-  }
 }
