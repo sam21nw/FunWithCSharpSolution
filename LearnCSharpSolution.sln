@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "canalLock", "canalLock\cana
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consoleApp", "consoleApp\consoleApp.csproj", "{4BEC35AE-4D38-4CB3-AE2A-E5B87589074F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBrowserApp", "WpfBrowserApp\WpfBrowserApp.csproj", "{997E80EF-A763-4F75-86D9-84C2A64D5E27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMatchGame", "WpfMatchGame\WpfMatchGame.csproj", "{D09AC33A-47C4-4CFB-AB02-F3788A756710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{4BEC35AE-4D38-4CB3-AE2A-E5B87589074F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEC35AE-4D38-4CB3-AE2A-E5B87589074F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEC35AE-4D38-4CB3-AE2A-E5B87589074F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{997E80EF-A763-4F75-86D9-84C2A64D5E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{997E80EF-A763-4F75-86D9-84C2A64D5E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{997E80EF-A763-4F75-86D9-84C2A64D5E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{997E80EF-A763-4F75-86D9-84C2A64D5E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09AC33A-47C4-4CFB-AB02-F3788A756710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09AC33A-47C4-4CFB-AB02-F3788A756710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09AC33A-47C4-4CFB-AB02-F3788A756710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09AC33A-47C4-4CFB-AB02-F3788A756710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
