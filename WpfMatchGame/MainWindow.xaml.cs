@@ -18,20 +18,20 @@ namespace WpfMatchGame
             SetUpGame();
         }
 
-        private List<string> animalEmojis = new List<string>()
-        {
-            "🐪", "🐪",
-            "🐒", "🐒",
-            "🐋", "🐋",
-            "🐨", "🐨",
-            "🦙", "🦙",
-            "🐈", "🐈",
-            "🐅", "🐅",
-            "🦮", "🦮",
-        };
-
         private void SetUpGame()
         {
+            List<string> animalEmojis = new List<string>()
+            {
+                "🐪", "🐪",
+                "🐒", "🐒",
+                "🐋", "🐋",
+                "🐨", "🐨",
+                "🦙", "🦙",
+                "🐈", "🐈",
+                "🐅", "🐅",
+                "🦮", "🦮",
+            };
+
             var random = new Random();
             foreach (var textBlock in mainGrid.Children.OfType<TextBlock>())
             {
