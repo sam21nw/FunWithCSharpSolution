@@ -4,8 +4,14 @@
 //   System.Console.WriteLine($"{point.X}, {point.Y}");
 // }
 
-var pair = new Pair<int, string>(1, "two");
-int i = pair.First;
-string s = pair.Second;
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        var pair = new Pair<int, string>(1, "two");
+        int i = pair.First;
+        string s = pair.Second;
 
-System.Console.WriteLine($"i = {i}, str = {s}");
+        Console.WriteLine($"i = {i}, str = {s}");
+    }
+}
