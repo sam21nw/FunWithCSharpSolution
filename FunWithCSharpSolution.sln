@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithNullableReferenceTyp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsoleApp", "SimpleConsoleApp\SimpleConsoleApp.csproj", "{821682DC-9AB1-4DB4-B63E-D75B1B07148F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTypes", "BasicDataTypes\BasicDataTypes.csproj", "{F410E17F-1A33-4744-AA44-9A92041BA209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStrings", "FunWithStrings\FunWithStrings.csproj", "{887C12CE-92D5-4A06-88EA-3D6280253E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{821682DC-9AB1-4DB4-B63E-D75B1B07148F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{821682DC-9AB1-4DB4-B63E-D75B1B07148F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{821682DC-9AB1-4DB4-B63E-D75B1B07148F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F410E17F-1A33-4744-AA44-9A92041BA209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F410E17F-1A33-4744-AA44-9A92041BA209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F410E17F-1A33-4744-AA44-9A92041BA209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F410E17F-1A33-4744-AA44-9A92041BA209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887C12CE-92D5-4A06-88EA-3D6280253E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887C12CE-92D5-4A06-88EA-3D6280253E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887C12CE-92D5-4A06-88EA-3D6280253E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887C12CE-92D5-4A06-88EA-3D6280253E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

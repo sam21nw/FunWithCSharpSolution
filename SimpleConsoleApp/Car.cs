@@ -18,4 +18,8 @@
             }
         }
     }
+
+    public class SportsCar : Car
+    {
+    }
 }

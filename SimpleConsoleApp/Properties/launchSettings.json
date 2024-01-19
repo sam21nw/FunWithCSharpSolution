@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SimpleConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "hello\r\nworld\r\nrock"
+    }
+  }
+}
