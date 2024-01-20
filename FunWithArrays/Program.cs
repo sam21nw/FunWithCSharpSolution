@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("***** Fun with Arrays *****");
-//SimpleArrays();
+SimpleArrays();
 RectMultidimensionalArray();
 
 static void SimpleArrays()
@@ -20,6 +20,7 @@ static void SimpleArrays()
 static void RectMultidimensionalArray()
 {
     Console.WriteLine();
+    Console.WriteLine("=> Multidimensional Array Creation.");
     int[,] myMatrix;
     myMatrix = new int[3, 3];
     for (int i = 0;i < 3;i++)
