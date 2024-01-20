@@ -37,6 +37,8 @@ static void LocalNullableVariables()
     Console.WriteLine(@ints);
 
     Console.WriteLine("-------------------------");
+    Console.WriteLine(nullableInt.HasValue);
+    Console.WriteLine(nullableDouble.HasValue);
     Console.WriteLine(nullableBool.HasValue);
     Console.WriteLine(nullableChar.HasValue);
 
