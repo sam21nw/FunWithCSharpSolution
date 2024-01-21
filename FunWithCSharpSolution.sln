@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsoleApp", "SimpleC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTypes", "BasicDataTypes\BasicDataTypes.csproj", "{F410E17F-1A33-4744-AA44-9A92041BA209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStrings", "FunWithStrings\FunWithStrings.csproj", "{887C12CE-92D5-4A06-88EA-3D6280253E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithStrings", "FunWithStrings\FunWithStrings.csproj", "{887C12CE-92D5-4A06-88EA-3D6280253E7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversions", "TypeConversions\TypeConversions.csproj", "{D425F385-D1FD-4F0A-A229-DEBCC2B38382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversions", "TypeConversions\TypeConversions.csproj", "{D425F385-D1FD-4F0A-A229-DEBCC2B38382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithIterationConstructs", "FunWithIterationConstructs\FunWithIterationConstructs.csproj", "{14365644-2251-496B-BBC1-C7785118E591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithIterationConstructs", "FunWithIterationConstructs\FunWithIterationConstructs.csproj", "{14365644-2251-496B-BBC1-C7785118E591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithArrays", "FunWithArrays\FunWithArrays.csproj", "{AC81DF13-AD89-4EDE-9E5D-C4CC6573BA6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithArrays", "FunWithArrays\FunWithArrays.csproj", "{AC81DF13-AD89-4EDE-9E5D-C4CC6573BA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithClasses", "FunWithClasses\FunWithClasses.csproj", "{6992C6BE-7420-4448-BCF6-A3C727DD0164}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{AC81DF13-AD89-4EDE-9E5D-C4CC6573BA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC81DF13-AD89-4EDE-9E5D-C4CC6573BA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC81DF13-AD89-4EDE-9E5D-C4CC6573BA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6992C6BE-7420-4448-BCF6-A3C727DD0164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6992C6BE-7420-4448-BCF6-A3C727DD0164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6992C6BE-7420-4448-BCF6-A3C727DD0164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6992C6BE-7420-4448-BCF6-A3C727DD0164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
