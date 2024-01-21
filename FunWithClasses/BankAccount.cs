@@ -21,7 +21,7 @@
 
         public BankAccount()
         {
-            SetAccountNumber(s_accountNumberSeed);
+            Number = s_accountNumberSeed.ToString();
             s_accountNumberSeed++;
         }
 
@@ -32,15 +32,10 @@
                 throw new ArgumentException($"'{nameof(name)}' cannot be null or empty.", nameof(name));
             }
 
-            SetAccountNumber(s_accountNumberSeed);
+            Number = s_accountNumberSeed.ToString();
             s_accountNumberSeed++;
             Owner = name;
             MakeDeposit(initialBalance, DateTime.Now, "initial balance");
-        }
-
-        private void SetAccountNumber(int number)
-        {
-            Number = number.ToString();
         }
 
         private List<Transaction> _allTransactions = [];
