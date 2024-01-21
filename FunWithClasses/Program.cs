@@ -1,10 +1,12 @@
 ﻿using FunWithClasses;
 
 Console.WriteLine("***** Fun with Class Types *****\n");
-Car car = new("Dude", 110, out bool danger);
+//Motorcycle motorcycle = new(2, "Dude");
+//Console.WriteLine(motorcycle);
 
-BankAccount account1 = new("name", 1000);
-Console.WriteLine(account1.ToString());
+SavingsAccount account = new(1000);
+Console.WriteLine(account);
 
-BankAccount account2 = new(null, 3000);
-Console.WriteLine(account2.ToString());
+SavingsAccount.SetInterestRate(0.05);
+SavingsAccount account1 = new(500);
+Console.WriteLine(account1);

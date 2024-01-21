@@ -2,24 +2,17 @@
 {
     internal class Car
     {
-        public string PetName = "Porsche";
-        public int CurrSpeed = 120;
+        public string? PetName;
+        public int CurrSpeed { get; set; }
+        public bool InDanger = false;
 
-        public Car()
-        {
-        }
-
-        public Car(string petName, int currSpeed, out bool inDanger)
+        public Car(string petName = "Porsche", int currSpeed = 80)
         {
             PetName = petName;
             CurrSpeed = currSpeed;
             if (currSpeed > 100)
             {
-                inDanger = true;
-            }
-            else
-            {
-                inDanger = false;
+                InDanger = true;
             }
         }
 
@@ -30,7 +23,7 @@
 
         public override string ToString()
         {
-            return $"Car Name:{PetName}, Current Speed:{CurrSpeed}";
+            return $"Car Name:{PetName}, Current Speed:{CurrSpeed}, In Danger:{InDanger}";
         }
     }
 }
