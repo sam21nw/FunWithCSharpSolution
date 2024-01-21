@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/FunWithEncapsulation/FunWithEncapsulation.csproj",
+                "${workspaceFolder}/FunWithGenerics/FunWithGenerics.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/FunWithEncapsulation/FunWithEncapsulation.csproj",
+                "${workspaceFolder}/FunWithGenerics/FunWithGenerics.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/FunWithEncapsulation/FunWithEncapsulation.csproj"
+                "${workspaceFolder}/FunWithGenerics/FunWithGenerics.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

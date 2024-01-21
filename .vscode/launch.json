@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/FunWithEncapsulation/bin/Debug/net8.0/FunWithEncapsulation.dll",
+            "program": "${workspaceFolder}/FunWithGenerics/bin/Debug/net8.0/FunWithGenerics.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/FunWithEncapsulation",
+            "cwd": "${workspaceFolder}/FunWithGenerics",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

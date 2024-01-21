@@ -1,6 +1,8 @@
-﻿Console.WriteLine("***** Fun with Arrays *****");
-SimpleArrays();
-RectMultidimensionalArray();
+﻿using System.Collections;
+
+Console.WriteLine("***** Fun with Arrays *****");
+// SimpleArrays();
+// RectMultidimensionalArray();
 
 static void SimpleArrays()
 {
@@ -8,13 +10,24 @@ static void SimpleArrays()
     int[] myInts = [4, 3, 59, 23, 21, 66];
     string[] booksOnDotNet = new string[100];
 
-    foreach (var item in myInts)
-    {
-        Console.WriteLine(item);
-    }
+    // foreach (var item in myInts)
+    // {
+    // Console.WriteLine(item);
+    // }
 
     //Console.WriteLine(myInts.GetType().Name);
-    Console.WriteLine(booksOnDotNet.Length);
+    // Console.WriteLine(booksOnDotNet.Length);
+    try
+    {
+        System.Console.WriteLine(myInts[6]);
+
+    }
+    catch (IndexOutOfRangeException e)
+    {
+        System.Console.WriteLine(e.Message); ;
+    }
+
+
 }
 
 static void RectMultidimensionalArray()
