@@ -12,6 +12,8 @@
 //    Console.WriteLine(car);
 //}
 
+using System.Collections;
+
 string[] strArray = ["Hello", "dude", "!"];
 
 People people = new();

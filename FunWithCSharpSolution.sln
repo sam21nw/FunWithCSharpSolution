@@ -37,7 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumerator", "CustomE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCollections", "BasicCollections\BasicCollections.csproj", "{DDD7FBB5-33B3-4505-8D1B-EBB009E9E7F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsoleApp", "SimpleConsoleApp\SimpleConsoleApp.csproj", "{4F02A957-A186-46BF-99B6-5D933567C2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsoleApp", "SimpleConsoleApp\SimpleConsoleApp.csproj", "{4F02A957-A186-46BF-99B6-5D933567C2E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCollection", "CustomCollection\CustomCollection.csproj", "{100BFBFC-EED7-4AFB-9D42-13CBC1C04833}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicGenericCollections", "BasicGenericCollections\BasicGenericCollections.csproj", "{B31D7093-A08A-4FF2-A430-385C3FAF996B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithObservableCollections", "FunWithObservableCollections\FunWithObservableCollections.csproj", "{33B902FC-CA17-488F-AD16-86AE6B2C2957}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +123,18 @@ Global
 		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100BFBFC-EED7-4AFB-9D42-13CBC1C04833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100BFBFC-EED7-4AFB-9D42-13CBC1C04833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100BFBFC-EED7-4AFB-9D42-13CBC1C04833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100BFBFC-EED7-4AFB-9D42-13CBC1C04833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31D7093-A08A-4FF2-A430-385C3FAF996B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31D7093-A08A-4FF2-A430-385C3FAF996B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31D7093-A08A-4FF2-A430-385C3FAF996B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31D7093-A08A-4FF2-A430-385C3FAF996B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B902FC-CA17-488F-AD16-86AE6B2C2957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B902FC-CA17-488F-AD16-86AE6B2C2957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B902FC-CA17-488F-AD16-86AE6B2C2957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B902FC-CA17-488F-AD16-86AE6B2C2957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
