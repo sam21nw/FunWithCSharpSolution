@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithCollections", "FunWi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithGenerics", "FunWithGenerics\FunWithGenerics.csproj", "{A1F8D291-3BB8-45E0-BBC5-376A0AA93F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{E21B8741-4067-40A9-B1E9-A8C95817A937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{E21B8741-4067-40A9-B1E9-A8C95817A937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInterfaces", "CustomInterfaces\CustomInterfaces.csproj", "{20845AE9-193C-4335-AD07-ECA2EDA9F15F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomInterfaces", "CustomInterfaces\CustomInterfaces.csproj", "{20845AE9-193C-4335-AD07-ECA2EDA9F15F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumerator", "CustomEnumerator\CustomEnumerator.csproj", "{47BD7CD8-148F-4EA4-AEAA-9581D590DD18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumerator", "CustomEnumerator\CustomEnumerator.csproj", "{47BD7CD8-148F-4EA4-AEAA-9581D590DD18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCollections", "BasicCollections\BasicCollections.csproj", "{DDD7FBB5-33B3-4505-8D1B-EBB009E9E7F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCollections", "BasicCollections\BasicCollections.csproj", "{DDD7FBB5-33B3-4505-8D1B-EBB009E9E7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsoleApp", "SimpleConsoleApp\SimpleConsoleApp.csproj", "{4F02A957-A186-46BF-99B6-5D933567C2E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{DDD7FBB5-33B3-4505-8D1B-EBB009E9E7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD7FBB5-33B3-4505-8D1B-EBB009E9E7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD7FBB5-33B3-4505-8D1B-EBB009E9E7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F02A957-A186-46BF-99B6-5D933567C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
