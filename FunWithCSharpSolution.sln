@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomGenericCollections", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithDelegatesAndEvents", "FunWithDelegatesAndEvents\FunWithDelegatesAndEvents.csproj", "{7B925C78-71FF-4A64-A4AB-7E57113A3B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDelegates", "BasicDelegates\BasicDelegates.csproj", "{59D89A03-130F-4B8D-A72D-FC3958A6C806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDelegates", "BasicDelegates\BasicDelegates.csproj", "{59D89A03-130F-4B8D-A72D-FC3958A6C806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithEvents", "FunWithEvents\FunWithEvents.csproj", "{DCA0408F-B1E8-40FD-85DD-613E04F5767D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{59D89A03-130F-4B8D-A72D-FC3958A6C806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D89A03-130F-4B8D-A72D-FC3958A6C806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D89A03-130F-4B8D-A72D-FC3958A6C806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA0408F-B1E8-40FD-85DD-613E04F5767D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA0408F-B1E8-40FD-85DD-613E04F5767D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA0408F-B1E8-40FD-85DD-613E04F5767D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA0408F-B1E8-40FD-85DD-613E04F5767D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
