@@ -3,6 +3,7 @@ HR hr = new();
 EmployeeCare _ = new(hr);
 hr.RegisterEmployee("dude", "male", 33);
 
+public delegate void NewEmployeeEventHandler(object sender, NewEmployeeEventArgs e);
 
 class EmployeeCare
 {
@@ -34,7 +35,6 @@ class HR
     }
 }
 
-public delegate void NewEmployeeEventHandler(object sender, NewEmployeeEventArgs e);
 
 public class NewEmployeeEventArgs
 {
