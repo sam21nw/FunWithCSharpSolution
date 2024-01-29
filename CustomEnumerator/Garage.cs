@@ -4,7 +4,7 @@ using CustomEnumerator;
 
 public record Garage : IEnumerator
 {
-    private readonly Car[] carArray = new Car[4];
+    private readonly Car[] carArray = new Car[5];
 
     public Garage()
     {
@@ -12,6 +12,7 @@ public record Garage : IEnumerator
         carArray[1] = new Car("Clunker", 70);
         carArray[2] = new Car("Zippy", 45);
         carArray[3] = new Car("Fred", 88);
+        carArray[4] = new Car("Lisa", 33);
     }
 
     public object Current => throw new NotImplementedException();

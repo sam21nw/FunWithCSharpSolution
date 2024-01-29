@@ -24,8 +24,7 @@ People people = new();
 //    Console.WriteLine(peopleEnumerator.Current);
 //}
 
-foreach (var item in people)
-{
+foreach (var item in people) {
     Console.WriteLine(item);
 }
 
