@@ -1,4 +1,4 @@
-﻿namespace EncapsulationLearn;
+﻿namespace ClassTypesLearn;
 
 internal record Motorcycle
 {
