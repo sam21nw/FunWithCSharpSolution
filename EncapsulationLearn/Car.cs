@@ -19,7 +19,7 @@ internal class Car
         _currSpeed = speed;
         if (checkDanger(speed))
         {
-            Console.WriteLine("Play start with danger");
+            Console.WriteLine("Play starting with danger");
             startDanger = true;
         } else
         {
