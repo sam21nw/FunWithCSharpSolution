@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopBasics", "OopBasics\OopB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApp", "EmployeeApp\EmployeeApp.csproj", "{E1C61DAF-43E5-4155-AFAC-3CE5926A6373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProps", "AutoProps\AutoProps.csproj", "{6E238513-D9AD-41CD-A66B-5E2A93223804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoProps", "AutoProps\AutoProps.csproj", "{6E238513-D9AD-41CD-A66B-5E2A93223804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "ObjectInitializers\ObjectInitializers.csproj", "{A5DD214F-05EA-45F5-ACFF-F44B7AFFB0B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectInitializers", "ObjectInitializers\ObjectInitializers.csproj", "{A5DD214F-05EA-45F5-ACFF-F44B7AFFB0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{22FF3676-41EE-47DD-845F-283FBB428D96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A5DD214F-05EA-45F5-ACFF-F44B7AFFB0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DD214F-05EA-45F5-ACFF-F44B7AFFB0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DD214F-05EA-45F5-ACFF-F44B7AFFB0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FF3676-41EE-47DD-845F-283FBB428D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FF3676-41EE-47DD-845F-283FBB428D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FF3676-41EE-47DD-845F-283FBB428D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FF3676-41EE-47DD-845F-283FBB428D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
