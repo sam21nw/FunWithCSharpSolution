@@ -10,6 +10,7 @@ class Employee
     private string? _empSSN;
     private EmployeePayTypeEnum _payType;
     private DateTime _hireDate;
+    protected BenefitPackage EmployeeBenefits = new BenefitPackage();
 
     // Properties
     public string? Name
@@ -57,9 +58,16 @@ class Employee
         get { return _hireDate; }
         set { _hireDate = value; }
     }
+    public BenefitPackage Benefits
+    {
+        get { return EmployeeBenefits; }
+        set { EmployeeBenefits = value; }
+    }
 
     // Constructors.
-    public Employee() { }
+    public Employee()
+    {
+    }
     public Employee(string name, int id, float pay, string empSsn, DateTime hireDate) : this(name, 0, id, pay, empSsn, EmployeePayTypeEnum.Salaried, hireDate) { }
     public Employee(string name, int age, int id, float pay, string empSsn, EmployeePayTypeEnum payType, DateTime hireDate)
     {
@@ -96,6 +104,11 @@ class Employee
         };
     }
     public void SetAge(int age) => _empAge = age;
+
+    public double GetBenefitCost()
+    {
+        return EmployeeBenefits.ComputePayDeduction();
+    }
     public void DisplayStats()
     {
         Console.WriteLine("Name: {0}", Name);
