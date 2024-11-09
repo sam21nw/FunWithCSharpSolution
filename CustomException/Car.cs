@@ -33,15 +33,7 @@ class Car
             {
                 Speed = 0;
                 _isCarDead = true;
-                throw new Exception($"{Name} has overheated!")
-                {
-                    HelpLink = "http://www.google.com",
-                    Data =
-                    {
-                        {"TimeStamp", $"The car exploded at {DateTime.UtcNow}" },
-                        {"Cause", "You have a lead foot." }
-                    }
-                };
+                throw new CarIsDeadException($"You have a lead foot", DateTime.Now, $"{Name} has overheated.") { HelpLink = "http://google.com" };
             }
             else
             {
