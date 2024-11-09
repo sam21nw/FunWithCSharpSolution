@@ -1,8 +1,8 @@
 ﻿namespace CustomInterfaces;
 
-internal class Program
+internal static class Program
 {
-    static void Main(string[] args)
+    private static void Main()
     {
         Console.WriteLine("***** Fun with Interfaces *****\n");
         //var sq = new Square("Boxy")
@@ -15,7 +15,7 @@ internal class Program
 
         Shape[] shapes = [new Triangle("T"), new Circle("C"), new Hexagon("Hex"), new ThreeDCircle("3DC")];
 
-        foreach (Shape shape in shapes)
+        foreach (var shape in shapes)
         {
             if (shape is IDraw3D s)
             {
@@ -24,14 +24,15 @@ internal class Program
         }
 
         Console.WriteLine("-----------------------------");
-        IPointy? firstPointItem = FindFirstPointyShape(shapes);
+        var firstPointItem = FindFirstPointyShape(shapes);
         Console.WriteLine($"The first pointy item found [{firstPointItem?.GetType()}] has {firstPointItem?.Points} points");
 
         Console.ReadLine();
     }
-    static IPointy? FindFirstPointyShape(Shape[] shapes)
+
+    private static IPointy? FindFirstPointyShape(Shape[] shapes)
     {
-        foreach (Shape shape in shapes)
+        foreach (var shape in shapes)
         {
             if (shape is IPointy ip)
             {
