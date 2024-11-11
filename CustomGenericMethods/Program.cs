@@ -28,7 +28,7 @@ public static class SwapFunctions
         a = b;
         b = temp;
     }
-    public static void Swap<T>(ref T a, ref T b)
+    public static void Swap<T>(ref T a, ref T b) where T : class
     {
         Console.WriteLine("You sent the Swap() method a {0}", typeof(T));
         (b, a) = (a, b);
