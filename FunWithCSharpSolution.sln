@@ -47,9 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLibrary", "CarLibrary\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithConfiguration", "FunWithConfiguration\FunWithConfiguration.csproj", "{FD137A7A-2E14-4E77-BA32-FD97A6B1FEA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryApp", "DirectoryApp\DirectoryApp.csproj", "{9AEAFE97-7995-4FD0-9491-18E9F8AE6BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryApp", "DirectoryApp\DirectoryApp.csproj", "{9AEAFE97-7995-4FD0-9491-18E9F8AE6BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFileIO", "SimpleFileIO\SimpleFileIO.csproj", "{686022F5-BEEF-41A6-B4CD-FA68D2D3D80D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFileIO", "SimpleFileIO\SimpleFileIO.csproj", "{686022F5-BEEF-41A6-B4CD-FA68D2D3D80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreamApp", "FileStreamApp\FileStreamApp.csproj", "{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -349,6 +351,18 @@ Global
 		{686022F5-BEEF-41A6-B4CD-FA68D2D3D80D}.Release|x64.Build.0 = Release|Any CPU
 		{686022F5-BEEF-41A6-B4CD-FA68D2D3D80D}.Release|x86.ActiveCfg = Release|Any CPU
 		{686022F5-BEEF-41A6-B4CD-FA68D2D3D80D}.Release|x86.Build.0 = Release|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Release|x64.Build.0 = Release|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DD5E525-2E12-4E57-88F7-1A7FB81376A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
